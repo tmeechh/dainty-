@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: url(/img/background.jpg) no-repeat center center/cover;
+  height: 80vh;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+  background: white;
+  margin-top: 0;
+}
+
+.text {
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: 45rem;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h1:nth-of-type(1) {
+  color: #e51b23;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 100px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+a:hover {
+  color: gray;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.icon {
+  height: 20px;
+  margin-left: 12rem;
+  justify-content: space-around;
+}
+
+.icon a {
+  margin-right: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+/* Images */
+.first-image img {
+  width: 16rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.f0ur p {
+  text-align: center;
+  width: 15rem;
+  margin-bottom: 8px;
+}
+
+.foura:hover {
+  text-decoration: underline;
+  color: #e51b23;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.f0ur {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.four2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.four2 p {
+  text-align: center;
+  width: 15rem;
+  margin-bottom: 8px;
+}
+
+h4 a {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #181818;
+  padding: 10px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 31rem;
+  width: fit-content;
+}
+
+/*h4 a {
+  text-decoration: none;
+  color: black;
+}
+*/
+
+/*h4:hover {
+  background: black;
+  color: white;
+} */
+
+h4 a:hover {
+  color: white;
+  background: #181818;
+  width: fit-content;
+}
+
+.wigs {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+/* Below */
+.below img {
+  width: 16rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.below p {
+  text-align: center;
+  width: 15rem;
+  margin-bottom: 8px;
+}
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.below2 img {
+  width: 16rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.below2 p {
+  text-align: center;
+  width: 15rem;
+  margin-bottom: 8px;
+}
+
+.below2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+/*Newsletter*/
+
+.inner-news {
+  background-color: lightgrey;
+  height: 13rem;
+  margin-top: 5rem;
+}
+
+.inner-news h1 {
+  padding-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.news {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 32rem;
+  height: 50px;
+  outline: 0;
+}
+
+input::placeholder {
+  padding-left: 2rem;
+}
+
+form button {
+  color: white;
+}
+
+button {
+  background: #e51b23;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  margin-left: 0;
+
+}
+
+button i {
+  width: 50px;
+}
+
+form a:hover {
+  color: white;
+}
+
+.inner-news h1:nth-of-type(1) {
+  color: #181818;
+}
+
+/* Table */
+.all {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: space-around;
+  justify-self: stretch;
+}
+
+.all p {
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.view {
+  background: #181818;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.view:hover {
+  background: gray;
+  color: #181818;
+}
+
+.all a {
+  color: grey;
+  word-spacing: 2px;
+}
+
+.all a:hover {
+  text-decoration: underline;
+  color: #181818;
+}
+
+.all h4 {
+  color: #181818;
+  margin-bottom: 25px;
+}
+
+.width {
+  width: 12rem;
+  color: grey;
+}
+
+/* Footer */
+footer {
+  background: #181818;
+  padding: 30px;
+  color: white;
+}
+
+footer img {
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.inner-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Media queries */
+@media (max-width: 780px) {
+  body {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+  }
+
+
+ 
+
+  .nav ul{
+    display: none;
+  }
+
+  .nav .icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6.5rem;
+  }
+
+  .text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left:0;
+   padding: 0;
+  }
+
+ 
+ 
+
+  .f0ur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px; 
+  }
+
+  .four2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .below {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .below2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h4 a {
+    text-align: center;
+    padding: 10px 20px;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  h4 a:hover{
+    background: white;
+    color: #181818;
+  }
+
+  input {
+    width: 20rem;
+    height: 40px;
+    justify-content: center;
+  }
+
+  button {
+    height: 40px;
+  }
+
+  button i {
+    width: 40px;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .all p {
+    display: none;
+  }
+}
